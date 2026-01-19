@@ -1,6 +1,6 @@
 ---
 Field: Economics
-Contributor: Qingyi Li, 225030218
+Contributor: Qingyi Li
 DataSource: https://huggingface.co/datasets/adamo1139/basic_economics_questions_ts_test_3
 Category: Economics Basic Knowledge / Question-and-answer pairs
 Language: English
