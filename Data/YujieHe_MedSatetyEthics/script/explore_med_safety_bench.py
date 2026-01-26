@@ -55,10 +55,10 @@ def extract_first_100_records(input_path: str, output_path: str) -> None:
 
 if __name__ == "__main__":
     # Explore dataset
-    dataset_path = Path("data/med-safety-bench/datasets")
+    dataset_path = Path("../data/med-safety-bench/datasets")
     explore_med_safety_bench(str(dataset_path))
 
     # Extract first 100 records from test set
-    input_file = Path("data/med-safety-bench/datasets/test/gpt4/med_safety_demonstrations_category_1.csv")
-    output_file = Path("med_safety_bench_sample.csv")
+    input_file = Path("../data/med-safety-bench/datasets/test/gpt4/med_safety_demonstrations_category_1.csv")
+    output_file = Path("../med_safety_bench_sample.csv")
     extract_first_100_records(str(input_file), str(output_file))

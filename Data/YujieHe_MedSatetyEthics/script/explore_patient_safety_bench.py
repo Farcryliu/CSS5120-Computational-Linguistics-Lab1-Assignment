@@ -40,9 +40,9 @@ def extract_first_100_records(input_path: str, output_path: str) -> None:
 
 if __name__ == "__main__":
     # Explore dataset
-    dataset_path = Path("data/PatientSafetyBench/patientsafetybench.jsonl")
+    dataset_path = Path("../data/PatientSafetyBench/patientsafetybench.jsonl")
     explore_patient_safety_bench(str(dataset_path))
 
     # Extract first 100 records
-    output_file = Path("patient_safety_bench_sample.jsonl")
+    output_file = Path("../patient_safety_bench_sample.jsonl")
     extract_first_100_records(str(dataset_path), str(output_file))
